@@ -1,0 +1,22 @@
+---------
+READ ME
+---------
+
+Fonts used are Google Fonts: Impact for headings and site title, Open Sans for body text
+
+I've included PDFs and the Sketch file, you can download a trial version of Sketch if you don't have it here: https://www.sketchapp.com/
+
+I'm looking for a basic HTML/CSS project. 
+
+Feel free to include effects on interactions or bypass image - for example:
+
+• you could use a CSS transition effect on links
+• you might consider using Font Awesome for the trophy and other icons 
+
+Some variation is fine, I am not necessarily looking for a pixel-perfect HTML page - more what solutions you employ and how your code is structured.
+
+Please don't spend more than a few hours on this. If you need help, or have a question, feel free to get in touch with me!
+
+Package up your project and send a zipped folder to me at: emily@chicagostyleseo.com with the subject line: CSS Code Challenge
+
+Thank you!

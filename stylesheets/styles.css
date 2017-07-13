@@ -1,0 +1,567 @@
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Section 1*/
+
+
+header {
+  width: 100%;
+  top:0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+ul {
+  list-style: none;
+  
+}
+
+li {
+  display: inline-block;
+  text-align: right;
+  padding: 13px;
+  
+}
+.nav-links {
+  color: #fff;
+  text-align: right;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.nav-links:hover {
+  text-decoration: underline;
+  color: green;
+  transition: 2s;
+}
+ 
+nav {
+  float: right;
+  font-family: 'Open Sans' sans-serif;
+} 
+
+ 
+#menu-icon {
+ background: url(../img-assets/menu-icon.png) no-repeat left;
+ display: none;
+ width: 62px;
+ height: 62px;
+ padding-left: 80px;
+ 
+}
+
+
+.hero-section {
+  background-image: url("../img-assets/pexels-photo-116191.jpeg");
+  height: 950px;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+  
+}
+
+
+h2{
+font-family: Impact;
+font-size: 30px;
+color: white;
+margin-top: 0;
+padding-top: 3%;
+padding-left: 80px;
+
+}
+.css-code-challenge{
+  background: rgba(234,155,30,0.80);
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 32%;
+  padding: 8%;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  
+  font-family: Impact;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+/* Section 2*/
+
+.section-two {
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 1600px 10%, 100px 77%, 0 100%);
+  clip-path: polygon(0 0, 1600px 10%, 1600px 77%, 0 100%);   
+  transform: skewY(2deg);
+  margin-top: -90px;
+  z-index: 2;
+}
+
+.section-two::after {
+  position: absolute;
+  background: inherit;
+  display: block;
+  content: '';
+  transform: skewY(-4deg); 
+}
+
+.flex-container2 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: center;
+  align-content: center;
+  background-color: #FBCF61;
+}
+
+h4 {
+  margin: -4px;
+  padding: -2;  
+  font-family: Impact;
+  font-size: 28px;
+  color: #4A4A4A;
+  transform: skewY(1deg);
+  padding-left: 5px;
+}
+
+.flex-item { 
+  width: 300px;
+  height: 70px;
+  margin: 50px;
+  padding: 80px;
+  font-family: .SFNSDisplay-Regular;
+  font-size: 15px;
+  color: #4A4A4A;
+  transform: skewY(-2deg);
+}
+
+.flex-item2{
+  width: 300px;
+  height: 70px;
+  margin: 80px;
+  padding: 60px;
+  font-family: .AppleSystemUIFont;
+  font-size: 15px;
+  color: #4A4A4A;
+  transform: skewY(-2deg);
+}
+
+.flex-item3 { 
+  width: 800px;
+  height: 100px;
+  margin: 80px;
+  padding-left: 45px;
+  font-family: .AppleSystemUIFont;
+  font-size: 15px;
+  color: #4A4A4A;
+  transform: skewY(-2deg);  
+}
+
+
+/*Section 3*/
+
+.section3{
+margin: -15px;
+margin-bottom: 5px;
+padding-bottom: 10px;
+padding-left: 40px;
+font-family: Impact;
+font-size: 28px;
+color: #4990E2;
+}
+
+.section-three {
+  position: relative;
+  transform: skewY(-4deg);
+}
+
+.section-three::after {
+  position: absolute;
+  background: inherit;
+  display: block;
+  content: '';
+  transform: skewY(-4deg);
+  
+}
+
+.flex-container3 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: center;
+  align-content: center;
+  
+}
+
+
+.flex-item-section-three {
+  width: 300px;
+  height: 100px;
+  margin:70px;
+  padding-left: 10px;
+  font-family: .AppleSystemUIFont;
+  font-size: 15px;
+  color: #4A4A4A;
+  transform: skewY(4deg);
+}
+
+.flex-item-section-three2nd {
+  width: 300px;
+  height: 100px;
+  margin:70px;
+  padding-top: 55px;
+  font-family: .AppleSystemUIFont;
+  font-size: 15px;
+  color: #4A4A4A;
+  transform: skewY(4deg);
+}
+
+.flex-item-section-three3rd {
+  width: 300px;
+  height: 100px;
+  margin:70px;
+  padding-top: 80px;
+  font-family: .AppleSystemUIFont;
+  font-size: 15px;
+  color: #4A4A4A;
+  transform: skewY(4deg);
+}
+
+/*Section 4*/
+
+.section4{
+  /*padding-top: 20px;*/
+  padding-bottom: 30px;
+  font-family: Impact;
+  font-size: 28px;
+  color: #FFFFFF;
+}
+.section-four{
+  position: relative;
+  background-color: #4A90E2;
+  -webkit-clip-path: polygon(0 25%, 1600px 0, 1600px 100%, 0 77%);
+  clip-path: polygon(0 25%, 1600px 0, 1600px 100%, 0 77%);
+  height: 520px;
+}
+
+
+
+.flex-item-section-four {  
+  margin: 80px;
+  margin-left: 60px;
+  padding-top:180px;
+  padding-left: 20px;
+  font-family: .SFNSDisplay-Regular;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 15px;
+  
+}
+
+
+#trophy{
+  background: #FFFFFF;
+  float: right;
+  margin-right: 10px;
+  margin-left: 120px;
+  border-radius: 50%;
+  color: #4A90E2;
+}
+
+.fa {
+   margin: 38px;
+}
+
+
+
+/* Footer*/
+
+
+
+#finish-line{ 
+  margin: 0;
+  padding: 0;
+  padding-left: 80px;
+  font-family: Impact;
+  font-size: 38px;
+  color: #4A4A4A;
+}
+
+.footer-text{
+  margin: 0;
+  padding: 40px;
+  
+  padding-left: 60px;
+  font-family: .AppleSystemUIFont;
+  font-size: 18px;
+  color: #000000;
+  line-height: 24px;
+
+}
+
+.seo-logo {
+  margin-left: 120px;
+  float: right;
+  
+  
+}
+
+span{
+  font-size: 25px;
+}
+
+
+/*MEDIA QUERY*/
+
+@media only screen and (max-width:375px){
+
+  body {
+    background-color: #fff;
+  }
+
+  .css-code-challenge{
+    background: rgba(234,155,30,0.80);
+    margin-top: 190px;
+    margin-left: 19%;
+    padding: 35px;
+    border-radius: 50%;
+    width: 135px;
+    height: 135px;
+    text-align: center;
+    font-family: Impact;
+    font-size: 29px;
+    color: #FFFFFF;
+  }
+
+  #first-assigned-section{
+    clear: both;
+    font-family: Impact;
+    font-size: 30px;
+    color: white;
+    margin-top: 0;
+    padding-top: 120%;
+    padding-left: 40%;
+  }
+
+  .sections-box{
+    display: -webkit-flex; 
+    -webkit-flex-direction: column-reverse; 
+    display: flex;
+    flex-direction: column-reverse; 
+  }
+  .section-two{
+    position: relative;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    -webkit-clip-path: polygon(0 0, 1600px 0, 0 1600px, 0 1600px);
+    clip-path: polygon(0 0, 1600px 0, 0 1600px, 0 1600px);
+    transform: skewY(0deg);
+  }
+   
+  #section2-header{
+    transform:skewY(2deg);
+
+  }
+
+  #text-section2-1{
+    transform:skewY(2deg);
+  }
+  .flex-item2{
+    display: none;
+   }
+
+  .flex-item3 {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    padding-top: 80px;
+    padding-bottom: 90px;
+  }
+
+  #text-section2-3{
+    transform:skewY(2deg);
+  }
+
+  .section-four{
+    margin-top: -140px;
+    padding-top: 30px;
+    position: relative;
+    background-color: #4A90E2;
+    -webkit-clip-path: polygon(0 0, 1600px 0, 0px 1600px, 0 1600px);
+    clip-path: polygon(0 0, 1600px 0, 0px 1600px, 0 1600px);
+    height: 520px;
+  }
+    
+
+  .flex-item-section-four{
+    margin: 0;
+    margin-left: auto;
+    padding-top: 120px;
+    padding-left: 24px;
+    font-family: .SFNSDisplay-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 14px;
+  }
+
+  .flex-container3{
+    margin-top: -50px;
+  }
+
+  .flex-item-section-three{
+    padding-left: 8px;
+  }
+  .flex-item-section-three3rd{
+    padding-top: 50px;
+    padding-bottom: 160px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+
+  body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+ 
+
+  header {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0,0,0,0.80);
+  }
+
+  nav{
+    float: left;
+    transition: width 5s;
+  }
+
+  #menu-icon{
+    position: relative;
+    display: block;
+    background-color: rgba(0,0,0,0.80);
+    float: left;
+
+  }
+
+
+  nav ul,nav:active ul {
+    display: none;
+    position: absolute;
+    padding: 18px;
+    background-color: rgba(0,0,0,0.80);
+    top:45px;
+    width: 25%;
+
+  }
+
+  nav:hover ul {
+    display: block;
+  }
+
+  nav li {
+    text-align: center;
+    width: 100%;
+    padding: 10;
+    margin: 0;
+  }
+ .menu-button{
+   color: #FFF;
+   margin: 5px;
+   
+ }
+
+
+  .css-code-challenge{
+    background: rgba(234,155,30,0.80);
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 25%;
+    padding: 10%;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    font-family: Impact;
+    font-size: 36px;
+    color: #FFFFFF;
+  }
+
+  h2 {
+    font-family: Impact;
+    font-size: 30px;
+    color: white;
+    margin-top: 0;
+    padding-top: 80%;
+    padding-left: 35%;
+  }
+
+
+  .flex-item{
+    width: 200px;
+    height: 70px;
+    margin: 0;
+    margin-left: 50px;
+    padding: 30px;
+    font-family: .SFNSDisplay-Regular;
+    font-size: 15px;
+    color: #4A4A4A;
+    transform: skewY(-2deg);
+  }
+
+  .flex-item2{
+    width: 200px;
+    height: 60px;
+    margin: 0;
+    padding: 50px;
+    font-family: .AppleSystemUIFont;
+    font-size: 15px;
+    color: #4A4A4A;
+    transform: skewY(-2deg);
+  }
+
+  .flex-item3{
+    width: 500px; 
+    margin:0;
+    margin-top: 180px;
+    margin-bottom: 40px;
+    padding-left:75px;
+    font-family: .AppleSystemUIFont;
+    font-size: 15px;
+    color: #4A4A4A;
+    transform: skewY(-2deg);
+  }
+
+  .seo-logo{
+    margin: 0;
+    padding: 0;
+    padding-right: 40px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+  body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+
+
+
+
